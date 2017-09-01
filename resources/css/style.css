@@ -1,0 +1,116 @@
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  position: fixed;
+  border-bottom: 1px solid black;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+.logo img{
+  margin-right: 12px;
+  height: 60px;
+  width: 70px;
+}
+
+.logo span {
+  color: aquamarine;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+a{
+  color: black;
+}
+
+.content{
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column.large{
+  width: 630px;
+}
+
+div {
+  border: 1px solid black;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.medium{
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
+}
+
+.lead-story .mother {
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+.mother {
+  height: 300px;
+  font-family: Georgia;
+  color: white;
+  font-weight: bold;
+}
+
+.fall-cancelled{
+  height: 300px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.pop-culture{
+  height: 300px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.cat-ceo{
+  height: 300px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
